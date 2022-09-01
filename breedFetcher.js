@@ -21,19 +21,3 @@ request(url, (error, response, body) => {
 
 
 
-
-
-// request(url, (error, response, body) => {
-//   if (error) {
-//     console.log('error:', error); // Print the error if one occurred
-//     return;
-//   }
-
-//   fs.writeFile(filePath, body, err => {
-//     if (err) {
-//       console.error(err);
-//       return;
-//     }
-//   });
-
-// });
